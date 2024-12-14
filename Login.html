@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!--!-----font family------  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <!--!-----font awosome file------  -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!--!-----bootstrap file------  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!--!-----css file------  -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container w-75 mx-auto">
+        <div class="formGroup w-75 mt-5 text-center m-auto pt-5 pb-5">
+            <h1 class="pb-3">Smart Login System</h1>
+            <div class="input-group mb-4 ps-5 pe-5">
+                <input type="text" class="form-control d-none userName" id="userName" name="user Name" placeholder="Enter Your Name"
+                    aria-label="userName" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-4 ps-5 pe-5">
+                <input type="email"  class="form-control userEmail" id="userEmail" name="user Email" placeholder="Enter Your Email"
+                    aria-label="userEmail" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-4  ps-5 pe-5">
+                <input type="password" class="form-control userPassword" placeholder="Enter Your Password" id="userPassword"
+                    name="user Password" aria-label="password" aria-describedby="basic-addon1">
+            </div>
+            <div id="errorMessage">
+                
+            </div>
+            <div class="text-center ps-5 pe-5 mb-4">
+                <a href="#"><button type="button" class="loginBtn btn btn-outline-secondary w-100">Login</button></a>
+            </div>
+            <p class="text-white fs-6">Don’t have an account? <a href="sign up.html">Sign Up</a></p>
+
+        </div>
+    </div>
+
+    <!--!-----main js file------  -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+*{
+    box-sizing:  border-box;
+}
+body{
+    background-color: #24353F;
+    font-family: 'Titillium Web', sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+.navbar{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.btn-outline-warning {
+    color: rgba(255, 255, 255, .5);;
+}
+.btn-outline-warning:hover {
+    color: white;
+}
+.welcome{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.welcome h1{
+    color: #17A1B7;
+}
